@@ -1,0 +1,9 @@
+# Test your FastAPI endpoints
+
+POST http://127.0.0.1:8080/api/search
+Accept: application/json
+
+{
+    "prompt": "Vem är VD på B3 Init AB?",
+    "num_results": 1
+}
