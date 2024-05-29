@@ -1,0 +1,10 @@
+{
+  "root": "/api",
+  "endpoint": "/search",
+  "chroma-host": "localhost",
+  "chroma-port": 8000,
+  "embedding-prompt": "What is this text about: ",
+  "collection-name": "collection",
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "prompt-key": "my-prompt"
+}
